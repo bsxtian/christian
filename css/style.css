@@ -1,0 +1,84 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+.container
+	{
+		width:1000px
+	}
+#signupform
+	{
+		width:500px;
+	}
+#btnSignUp
+	{
+		display:none;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.container
+	{
+		width:568px
+	}
+input
+	{
+		width:160px;
+	}
+select
+	{
+		width:160px;
+	}
+#btnSignUp
+	{
+		display:none;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */	
+@media (max-width: 767px) {
+.container
+	{
+		width:567px
+	}
+input
+	{
+		width:150px;
+	}
+select
+	{
+		width:150px;
+	}
+#btnSignUp
+	{
+		display:none;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {  	
+.container
+	{
+		width:260px
+	}
+input
+	{
+		width:130px;
+	}
+select
+	{
+		width:130px;
+	}
+
+#loginform
+	{
+		width:230px;
+	}
+#signupform
+	{
+		width:230px;
+	}
+#btnSignUp
+	{
+		display:active;
+	}
+}
